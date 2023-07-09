@@ -1,4 +1,4 @@
-package org.stellarburgers.ClassesWithMethods;
+package org.stellarburgers.classes.with.methods;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;

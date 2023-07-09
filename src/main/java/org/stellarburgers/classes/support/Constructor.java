@@ -1,4 +1,4 @@
-package org.stellarburgers.SupportClasses;
+package org.stellarburgers.classes.support;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package org.stellarburgers.API;
+package org.stellarburgers.classes.api;
 
 public class UserToken
 {

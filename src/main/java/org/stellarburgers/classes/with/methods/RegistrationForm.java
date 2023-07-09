@@ -1,9 +1,8 @@
-package org.stellarburgers.ClassesWithMethods;
+package org.stellarburgers.classes.with.methods;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.stellarburgers.ClassesWithMethods.MainPage;
 
 import static org.junit.Assert.assertEquals;
 

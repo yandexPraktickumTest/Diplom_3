@@ -1,12 +1,12 @@
-package stellarburgers.TestsUI;
+package org.stellarburgers.tests.ui;
 
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.stellarburgers.ClassesWithMethods.MainPage;
-import org.stellarburgers.SupportClasses.Constructor;
-import org.stellarburgers.SupportClasses.PersonalRoom;
-import stellarburgers.TestsSupport.TestBase;
+import org.stellarburgers.classes.with.methods.MainPage;
+import org.stellarburgers.classes.support.Constructor;
+import org.stellarburgers.classes.support.PersonalRoom;
+import org.stellarburgers.tests.support.TestBase;
 
 import static org.junit.Assert.assertNotEquals;
 

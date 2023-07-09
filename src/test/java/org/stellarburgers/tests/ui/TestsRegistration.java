@@ -1,15 +1,15 @@
-package stellarburgers.TestsUI;
+package org.stellarburgers.tests.ui;
 
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.stellarburgers.API.UserToken;
-import org.stellarburgers.API.UserWithEmailAndPassword;
-import org.stellarburgers.ClassesWithMethods.MainPage;
-import org.stellarburgers.ClassesWithMethods.RegistrationForm;
-import stellarburgers.TestsSupport.TestBase;
+import org.stellarburgers.classes.api.UserToken;
+import org.stellarburgers.classes.api.UserWithEmailAndPassword;
+import org.stellarburgers.classes.with.methods.MainPage;
+import org.stellarburgers.classes.with.methods.RegistrationForm;
+import org.stellarburgers.tests.support.TestBase;
 
 public class TestsRegistration extends TestBase
 {

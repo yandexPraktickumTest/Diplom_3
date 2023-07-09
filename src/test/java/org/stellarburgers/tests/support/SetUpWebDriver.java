@@ -1,4 +1,4 @@
-package stellarburgers.TestsSupport;
+package org.stellarburgers.tests.support;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
