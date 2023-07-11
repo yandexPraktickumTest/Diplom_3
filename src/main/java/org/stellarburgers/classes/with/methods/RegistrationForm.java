@@ -19,9 +19,9 @@ public class RegistrationForm
 
     private final WebDriver webDriver;
     final private By textIncorrectPassword = By.xpath(".//p[@class='input__error text_type_main-default']");
-    final private By nameInputField = By.xpath("/html/body/div/div/main/div/form/fieldset[1]/div/div/input");
-    final private By emailInputField = By.xpath("/html/body/div/div/main/div/form/fieldset[2]/div/div/input");
-    final private By passwordInputField = By.xpath("/html/body/div/div/main/div/form/fieldset[3]/div/div/input");
+    final private By nameInputField = By.xpath(".//label[((@class='input__placeholder text noselect text_type_main-default') or (@class='input__placeholder text noselect text_type_main-default input__placeholder-focused')) and text()='Имя']/following-sibling::input");
+    final private By emailInputField = By.xpath(".//label[((@class='input__placeholder text noselect text_type_main-default') or (@class='input__placeholder text noselect text_type_main-default input__placeholder-focused')) and text()='Email']/following-sibling::input");
+    final private By passwordInputField = By.xpath(".//label[((@class='input__placeholder text noselect text_type_main-default') or (@class='input__placeholder text noselect text_type_main-default input__placeholder-focused')) and text()='Пароль']/following-sibling::input");
     final private By registrationButton = By.xpath(".//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa' and text()='Зарегистрироваться']");
     final private By logInButton = By.xpath(".//a[@class='Auth_link__1fOlj']");
 

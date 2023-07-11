@@ -16,7 +16,7 @@ public class TestBase
     {
         SetUpWebDriver setUpWebDriver = new SetUpWebDriver();
 
-        driver = setUpWebDriver.setWebDriver("browser1");
+        driver = setUpWebDriver.setWebDriver("browser2");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 

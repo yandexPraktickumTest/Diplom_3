@@ -10,11 +10,11 @@ public class Constructor
 
     final private By personalRoomButton = By.xpath(".//p[@class='AppHeader_header__linkText__3q_va ml-2'and text()='Личный Кабинет']");
     final private By bunSectionButton = By.xpath(".//span[@class='text text_type_main-default' and text()='Булки']");
-    final private By bunSectionButtonName = By.xpath("/html/body/div/div/main/section[1]/div[1]/div[1]");
+    final private By bunSectionButtonName = By.xpath(".//span[@class='text text_type_main-default' and text()='Булки']/parent::*");
     final private By souseSectionButton = By.xpath(".//span[@class='text text_type_main-default' and text()='Соусы']");
-    final private By souseSectionButtonName = By.xpath("/html/body/div/div/main/section[1]/div[1]/div[2]");
+    final private By souseSectionButtonName = By.xpath(".//span[@class='text text_type_main-default' and text()='Соусы']/parent::*");
     final private By fillingSectionButton = By.xpath(".//span[@class='text text_type_main-default' and text()='Начинки']");
-    final private By fillingSectionButtonName = By.xpath("/html/body/div/div/main/section[1]/div[1]/div[3]");
+    final private By fillingSectionButtonName = By.xpath(".//span[@class='text text_type_main-default' and text()='Начинки']/parent::*");
 
     public By getPersonalRoomButton() {return personalRoomButton;}
 

@@ -17,9 +17,9 @@ public class MainPage
         this.webDriver = webDriver;
     }
     private final WebDriver webDriver;
-    final private By emailInputField = By.xpath("/html/body/div/div/main/div/form/fieldset[1]/div/div/input");
-    final private By passwordInputField = By.xpath("/html/body/div/div/main/div/form/fieldset[2]/div/div/input");
-    final private By logInButton = By.xpath("/html/body/div/div/main/div/form/button");
+    final private By emailInputField = By.xpath(".//label[((@class='input__placeholder text noselect text_type_main-default') or (@class='input__placeholder text noselect text_type_main-default input__placeholder-focused')) and text()='Email']/following-sibling::input");
+    final private By passwordInputField = By.xpath(".//label[((@class='input__placeholder text noselect text_type_main-default') or (@class='input__placeholder text noselect text_type_main-default input__placeholder-focused')) and text()='Пароль']/following-sibling::input");
+    final private By logInButton = By.xpath(".//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa']");
     final private By personalRoomButton = By.xpath(".//p[@class='AppHeader_header__linkText__3q_va ml-2'and text()='Личный Кабинет']");
     final private By registrationButton = By.xpath(".//a[@class='Auth_link__1fOlj' and text()='Зарегистрироваться']");
     final private By constructorButton = By.xpath(".//p[@class='AppHeader_header__linkText__3q_va ml-2' and text()='Конструктор']");
